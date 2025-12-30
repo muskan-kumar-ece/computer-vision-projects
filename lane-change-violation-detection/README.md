@@ -33,6 +33,8 @@ The implementation is designed as a **demo-level academic project**, focusing on
 - SORT / DeepSORT (object tracking)  
 - Google Colab  
 
+- End-to-end implementation available as a Google Colab notebook
+
 ---
 
 ## 📂 Project Structure
