@@ -45,6 +45,10 @@ lane-change-violation-detection/
 └── README.md
 
 ---
+## ▶️ Run the Demo
+The complete demo is available as a Google Colab notebook:
+
+🔗 https://colab.research.google.com/drive/10I-jBUNLSckkmdVckOaMg6muV2JiQuN9?usp=sharing
 
 ## ⚠️ Disclaimer
 This project is intended for **academic demonstration and research purposes only** and does not represent a deployed traffic enforcement system.
