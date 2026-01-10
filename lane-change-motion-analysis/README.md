@@ -144,12 +144,11 @@ vehicle_29_event_frame_320.jpg
 ## 🚀 How to Run
 
 ### 1️⃣ Install dependencies
-```bash
 pip install ultralytics opencv-python numpy pandas matplotlib
-2️⃣ Add your input video
+###2️⃣ Add your input video
 Place your traffic video as:
 /content/input.mp4
-3️⃣ Run notebook
+###3️⃣ Run notebook
 Open and run:
 thisone.ipynb
 
