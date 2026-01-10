@@ -118,12 +118,14 @@ vehicle_abnormal_summary.csv
 evidence/
   vehicle_11_event_frame_223.jpg
   vehicle_29_event_frame_320.jpg
+
+```
 📊 Example CSV Output (Event-Level Report)
 vehicle_id	frame_id	timestamp_sec	smooth_abnormal_score	evidence_path
 11	223	7.43	0.772	evidence/vehicle_11_event_frame_223.jpg
 29	320	10.67	0.673	evidence/vehicle_29_event_frame_320.jpg
-
 🛠 Tech Stack
+
 Python
 
 OpenCV
@@ -138,26 +140,8 @@ Pandas
 
 Matplotlib
 
-🚀 How to Run
-1️⃣ Install dependencies
-bash
-Copy code
-pip install ultralytics opencv-python numpy pandas matplotlib
-2️⃣ Add your input video
-Place your traffic video as:
-
-bash
-Copy code
-/content/input.mp4
-(or update the VIDEO_PATH variable in the notebook)
-
-3️⃣ Run notebook
-Open and run:
-
-bash
-Copy code
-Abnormal_Driving_Behavior_Detection.ipynb
 🧪 Results & Visualization
+
 🟩 Green boxes: normal driving
 
 🟥 Red boxes: abnormal driving
@@ -165,6 +149,7 @@ Abnormal_Driving_Behavior_Detection.ipynb
 Evidence frames are saved automatically for abnormal events
 
 ⚠️ Limitations (Current Version)
+
 Pixel-based speed depends on camera angle & video resolution
 
 Lane-level reasoning not included (future scope)
@@ -174,6 +159,7 @@ Sudden occlusions may affect tracking temporarily
 Works best on stable traffic camera videos
 
 🔮 Future Improvements
+
 ✅ Lane detection + lane departure behavior
 ✅ Calibration to convert pixel speed → real-world speed
 ✅ Driver intent estimation using turn signal detection
