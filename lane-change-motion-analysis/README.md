@@ -120,25 +120,43 @@ evidence/
   vehicle_29_event_frame_320.jpg
 
 ```
-📊 Example CSV Output (Event-Level Report)
-vehicle_id	frame_id	timestamp_sec	smooth_abnormal_score	evidence_path
-11	223	7.43	0.772	evidence/vehicle_11_event_frame_223.jpg
-29	320	10.67	0.673	evidence/vehicle_29_event_frame_320.jpg
-🛠 Tech Stack
 
-Python
 
-OpenCV
 
-Ultralytics YOLOv8
+---
 
-ByteTrack Tracker
+## 📊 Example CSV Output (Event-Level Report)
 
-NumPy
+| vehicle_id | frame_id | timestamp_sec | smooth_abnormal_score | evidence_path |
+|----------|----------|---------------|------------------------|---------------|
+| 11 | 223 | 7.43 | 0.772 | evidence/vehicle_11_event_frame_223.jpg |
+| 29 | 320 | 10.67 | 0.673 | evidence/vehicle_29_event_frame_320.jpg |
 
-Pandas
+---
 
-Matplotlib
+## 🛠 Tech Stack
+
+- Python
+- OpenCV
+- Ultralytics YOLOv8
+- ByteTrack Tracker
+- NumPy
+- Pandas
+- Matplotlib
+
+---
+
+## 🚀 How to Run
+
+### 1️⃣ Install dependencies
+```bash
+pip install ultralytics opencv-python numpy pandas matplotlib
+```
+### 2️⃣ Add your input video
+ /content/input.mp4
+
+### 3️⃣ Run notebook
+ Abnormal_Driving_Behavior_Detection.ipynb
 
 🧪 Results & Visualization
 
@@ -165,3 +183,5 @@ Works best on stable traffic camera videos
 ✅ Driver intent estimation using turn signal detection
 ✅ Abnormal behavior classification using LSTM/Transformer on trajectories
 ✅ Web dashboard for reports
+
+
