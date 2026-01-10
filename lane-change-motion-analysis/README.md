@@ -193,3 +193,23 @@ Works best on stable traffic camera videos
 
 --- 
 
+## 📂 Project Structure
+lane-change-violation-detection/
+
+├── demo_video/ # Input and output demo videos
+
+├── output_results/ # Images, logs, and detection results
+
+├── colab_notebook/ # Google Colab implementation
+
+└── README.md
+
+
+---
+## ▶️ Run the Demo
+The complete demo is available as a Google Colab notebook:
+
+🔗 https://colab.research.google.com/drive/1gPeQzOhlea9ssy56kPDgEuiNKsTnPSbm?usp=sharing
+
+## ⚠️ Disclaimer
+This project is intended for **academic demonstration and research purposes only** and does not represent a deployed traffic enforcement system.
