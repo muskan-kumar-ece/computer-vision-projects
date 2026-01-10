@@ -146,9 +146,33 @@ vehicle_29_event_frame_320.jpg
 ### 1️⃣ Install dependencies
 ```bash
 pip install ultralytics opencv-python numpy pandas matplotlib
+2️⃣ Add your input video
+Place your traffic video as:
+/content/input.mp4
+3️⃣ Run notebook
+Open and run:
+thisone.ipynb
 
+🧪 Results & Visualization
 
+🟩 Green boxes: normal driving
+🟥 Red boxes: abnormal driving
+Evidence frames saved automatically for abnormal events
 
+⚠️ Limitations (Current Version)
+
+Pixel-based speed depends on camera angle & video resolution
+Lane-level reasoning not included (future scope)
+Sudden occlusions may affect tracking temporarily
+Works best on stable traffic camera videos
+
+🔮 Future Improvements
+
+✅ Lane detection + lane departure behavior
+✅ Calibration to convert pixel speed → real-world speed
+✅ Driver intent estimation using turn signal detection
+✅ Abnormal behavior classification using LSTM/Transformer on trajectories
+✅ Web dashboard for reports
 ---
 
 ## ✅ Next (Recommended)
