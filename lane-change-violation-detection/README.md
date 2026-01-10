@@ -40,9 +40,13 @@ The implementation is designed as a **demo-level academic project**, focusing on
 ## 📂 Project Structure
 lane-change-violation-detection/
 ├── demo_video/ # Input and output demo videos
+
 ├── output_results/ # Images, logs, and detection results
+
 ├── colab_notebook/ # Google Colab implementation
+
 └── README.md
+
 
 ---
 ## ▶️ Run the Demo
