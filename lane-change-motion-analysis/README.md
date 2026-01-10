@@ -153,12 +153,15 @@ evidence/
 pip install ultralytics opencv-python numpy pandas matplotlib
 ```
 ### 2️⃣ Add your input video
+ ```bash
  /content/input.mp4
-
+```
 ### 3️⃣ Run notebook
+```bash
  Abnormal_Driving_Behavior_Detection.ipynb
+```
 
-🧪 Results & Visualization
+## 🧪 Results & Visualization
 
 🟩 Green boxes: normal driving
 
@@ -166,7 +169,9 @@ pip install ultralytics opencv-python numpy pandas matplotlib
 
 Evidence frames are saved automatically for abnormal events
 
-⚠️ Limitations (Current Version)
+---
+
+## ⚠️ Limitations (Current Version)
 
 Pixel-based speed depends on camera angle & video resolution
 
@@ -176,7 +181,9 @@ Sudden occlusions may affect tracking temporarily
 
 Works best on stable traffic camera videos
 
-🔮 Future Improvements
+--- 
+
+## 🔮 Future Improvements
 
 ✅ Lane detection + lane departure behavior
 ✅ Calibration to convert pixel speed → real-world speed
@@ -184,4 +191,5 @@ Works best on stable traffic camera videos
 ✅ Abnormal behavior classification using LSTM/Transformer on trajectories
 ✅ Web dashboard for reports
 
+--- 
 
